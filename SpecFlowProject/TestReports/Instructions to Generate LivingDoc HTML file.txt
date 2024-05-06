@@ -1,0 +1,16 @@
+Instructions to install LivingDoc through cmd:
+1. Open CMD (eg: C:\user\xyz>)
+2. run the following command to install: dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+			Eg: C:\user\xyz>dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+
+
+Instructions to Generate LivingDoc HTML file:
+1. Edit GenerateLivingDocFile.bat
+2. In 1st command, update local path in 
+		SET PATH = {Your Local Path}\wipfli-test-automation-specflow\SpecFlowProject_Wipfli\TestResults
+3. In 2nd Command, update local path in 
+		start /wait livingdoc test-assembly "{Your Local Path}\wipfli-test-automation-specflow\SpecFlowProject_Wipfli\bin\Debug\net6.0\SpecFlowProject_Wipfli.dll" -t "{Your Local Path}\mwipfli-test-automation-specflow\SpecFlowProject_Wipfli\bin\Debug\net6.0\TestExecution.json"
+4. Save the GenerateLivingDocFile.bat file
+5. Run GenerateLivingDocFile.bat
+6. LivingDoc.html will get generated
+7. Open LivingDoc.html to view test execution reports

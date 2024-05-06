@@ -1,0 +1,3 @@
+SET PATH = D:\Old Laptop\Wipfli Projects\QA\Wipfli_AutomationFramework\wipfli-test-automation-specflow\SpecFlowProject_Wipfli\TestReports
+start /wait livingdoc test-assembly "D:\Old Laptop\Wipfli Projects\QA\Wipfli_AutomationFramework\wipfli-test-automation-specflow\SpecFlowProject_Wipfli\bin\Debug\net7.0\SpecFlowProject_Wipfli.dll" -t "D:\Old Laptop\Wipfli Projects\QA\Wipfli_AutomationFramework\wipfli-test-automation-specflow\SpecFlowProject_Wipfli\bin\Debug\net7.0\TestExecution.json"
+--pause

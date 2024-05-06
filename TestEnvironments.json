@@ -1,0 +1,15 @@
+{
+    "version": "1",
+    "environments": [
+        {
+            "name": "ubuntu",
+            "type": "docker",
+            "dockerImage": "mcr.microsoft.com/dotnet/sdk"
+        },
+        {
+            "name": "WSL-Ubuntu",
+            "type": "wsl",
+            "wslDistribution": "Ubuntu"
+        }
+    ]
+}
